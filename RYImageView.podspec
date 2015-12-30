@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = "RYImageView"
   s.version          = "0.1.0"
   s.summary          = "RYImageView是一个自定义控件"
-  s.version.to_s     = "0.1.0"
+
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ryan" => "409266255@qq.com" }
-  s.source           = { :git => "https://github.com/polodede/RYImageView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/polodede/RYImageView.git", :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
