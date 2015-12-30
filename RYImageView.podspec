@@ -9,21 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = "RYImageView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RYImageView."
-
+  s.summary          = "RYImageView是一个自定义控件"
+  s.version.to_s     = "0.1.0"
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "RYImageView是一个自定义控件，可点击"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RYImageView"
+  s.homepage         = "https://github.com/polodede/RYImageView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ryan" => "409266255@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RYImageView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/polodede/RYImageView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -36,5 +35,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage'
 end
