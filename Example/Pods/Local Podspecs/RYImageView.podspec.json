@@ -1,15 +1,15 @@
 {
   "name": "RYImageView",
   "version": "0.1.0",
-  "summary": "A short description of RYImageView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RYImageView",
+  "summary": "RYImageView是一个自定义控件",
+  "description": "RYImageView是一个自定义控件，可点击",
+  "homepage": "https://github.com/polodede/RYImageView",
   "license": "MIT",
   "authors": {
     "Ryan": "409266255@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RYImageView.git",
+    "git": "https://github.com/polodede/RYImageView.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,12 @@
   "resource_bundles": {
     "RYImageView": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "SDWebImage": [
+
     ]
   }
 }

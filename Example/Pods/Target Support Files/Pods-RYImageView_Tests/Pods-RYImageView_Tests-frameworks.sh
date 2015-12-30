@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-RYImageView_Tests/RYImageView.framework"
+  install_framework "Pods-RYImageView_Tests/SDWebImage.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-RYImageView_Tests/RYImageView.framework"
+  install_framework "Pods-RYImageView_Tests/SDWebImage.framework"
 fi

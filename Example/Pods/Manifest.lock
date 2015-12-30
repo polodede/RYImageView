@@ -1,5 +1,9 @@
 PODS:
-  - RYImageView (0.1.0)
+  - RYImageView (0.1.0):
+    - SDWebImage
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
 
 DEPENDENCIES:
   - RYImageView (from `../`)
@@ -9,6 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RYImageView: 421819c3f322572ea337b24dc0758b537996b58b
+  RYImageView: d6dbb9496a720576f34a719621474bd27f8adfa4
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
 COCOAPODS: 0.39.0
