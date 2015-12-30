@@ -1,0 +1,6 @@
+framework module Pods_RYImageView_Example {
+  umbrella header "Pods-RYImageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

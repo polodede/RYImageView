@@ -1,0 +1,6 @@
+framework module RYImageView {
+  umbrella header "RYImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - RYImageView (0.1.0)
+
+DEPENDENCIES:
+  - RYImageView (from `../`)
+
+EXTERNAL SOURCES:
+  RYImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYImageView: 421819c3f322572ea337b24dc0758b537996b58b
+
+COCOAPODS: 0.39.0
